@@ -12,7 +12,7 @@ This project uses NodeJS and Express in backend, and uses ReactJS and Materializ
 
 
 Frontend: 
-
+```
   ReactJS, MaterializeCSS and some npm packages were used to create the webpage. The project was deployed on heroku and is accessable through the link https://pinfograbber.herokuapp.com
   
   
@@ -27,9 +27,10 @@ The "Type,Limit&Offset" field takes limit and offset and type query inputs, eg. 
 
 The "Load API" button calls the /api/productlist API with default offset = 0 and limit = 20.
 
-
+```
 DataSet:
 
+```
   The Dataset was genrated using a Python Script, with the following Schema in mind:
   
   
@@ -84,7 +85,7 @@ example from dataset:
     "type": "Type15"
   }
   
-  
+  ```
   
   Backend:
   
