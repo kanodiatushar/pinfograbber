@@ -94,7 +94,7 @@ example from dataset:
     Two APIs were created : 
     
     
-    /api/productlist    -- It returns all the objects (with a default limit of 20, can return upto 1500 objects) inside a collection and is then used to fill the table visible to the client. The API supports limit and offset queries as requested.
+    /api/productlist    -- It returns all the objects (with a default limit of 20, can return upto 1500 objects) inside a collection and is then used to fill the table visible to the client. The API supports limit and offset queries.
     /api/product        -- It returns all the objects with a valid type query(with a default limit of 20, can return upto 100 products of each type) to fill the table visible to the client.This API also supports limit and offset queries.
     
     
